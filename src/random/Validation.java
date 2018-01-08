@@ -19,12 +19,36 @@ public class Validation {
 		System.out.println(randomNumber);
 
 		// 3. Use each value of randomNumber to give the user a random compliment
+		
 		if (randomNumber==0) {
-		JOptionPane.showMessageDialog(null, "I like your jacket");
-		};
+		JOptionPane.showMessageDialog(null, "I like your jacket");  }
+		if (randomNumber==1) {
+			JOptionPane.showMessageDialog(null, "You look tired");    }
+		if (randomNumber==2) {
+			JOptionPane.showMessageDialog(null, "I like your glasses");      }
+		if (randomNumber==3) {
+			JOptionPane.showMessageDialog(null, "I like your t-shirt");   }
+		if (randomNumber==4) {
+			JOptionPane.showMessageDialog(null, "I like your program");   }
+			
+		for (int i = 0; i < 10; i++) {    
+			if (randomNumber==0) {
+				JOptionPane.showMessageDialog(null, "I like your jacket");  }
+				if (randomNumber==1) {
+					JOptionPane.showMessageDialog(null, "You look tired");    }
+				if (randomNumber==2) {
+					JOptionPane.showMessageDialog(null, "I like your glasses");      }
+				if (randomNumber==3) {
+					JOptionPane.showMessageDialog(null, "I like your t-shirt");   }
+				if (randomNumber==4) {
+					JOptionPane.showMessageDialog(null, "I like your program");   }
+					
+			
+		}
 		
 		// 4. Repeat all the code above 10 times
 		
 		// 5. Find someone to test out your program. They will like it :)
 	}
 }
+
